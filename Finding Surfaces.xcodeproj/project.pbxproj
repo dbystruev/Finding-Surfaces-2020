@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6980140A2507B63E0029B61A /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 698014092507B63E0029B61A /* Screenshot01.png */; };
 		69FF8C7D24FFE297008EE270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF8C7C24FFE297008EE270 /* AppDelegate.swift */; };
 		69FF8C7F24FFE297008EE270 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FF8C7E24FFE297008EE270 /* art.scnassets */; };
 		69FF8C8124FFE297008EE270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF8C8024FFE297008EE270 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		698014092507B63E0029B61A /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		69FF8C7924FFE297008EE270 /* Finding Surfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finding Surfaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FF8C7C24FFE297008EE270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69FF8C7E24FFE297008EE270 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		698014082507B6270029B61A /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				698014092507B63E0029B61A /* Screenshot01.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		69FF8C7024FFE297008EE270 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		69FF8C7B24FFE297008EE270 /* Finding Surfaces */ = {
 			isa = PBXGroup;
 			children = (
+				698014082507B6270029B61A /* Screenshot */,
 				69FF8C7C24FFE297008EE270 /* AppDelegate.swift */,
 				69FF8C7E24FFE297008EE270 /* art.scnassets */,
 				69FF8C8024FFE297008EE270 /* ViewController.swift */,
@@ -127,6 +138,7 @@
 				69FF8C7F24FFE297008EE270 /* art.scnassets in Resources */,
 				69FF8C8924FFE298008EE270 /* LaunchScreen.storyboard in Resources */,
 				69FF8C8624FFE298008EE270 /* Assets.xcassets in Resources */,
+				6980140A2507B63E0029B61A /* Screenshot01.png in Resources */,
 				69FF8C8424FFE297008EE270 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
